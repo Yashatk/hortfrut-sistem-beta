@@ -1,0 +1,22 @@
+# Sistema Frut Manager  -- Gerenciamento de HortFrut
+
+## Versão Beta 3.0
+
+
+├── definitions.h              # Definições e estruturas usadas no sistema
+├── main.c                     # Ponto de entrada principal e controle de fluxo do programa
+├── user_management.c          # Autenticação e gerenciamento de usuários
+├── inventory_management.c     # Cadastro e consulta de inventário
+└── sales_management.c         # Registro de vendas e cálculo de lucros
+
+## Execução 
+├── No compilador escolhido realize a compilação do arquivo 
+├── Execute no terminal: ./hortifrut_system
+
+## Instruções de Uso
+├── Login e Acesso: O programa solicita o nome de usuário e senha no início.
+├── Menu Principal:
+    Registro de produtos podem ser realizados apenas administrador
+    Relatório de Estoque Exibe a lista de produtos e suas informações
+    Registrar Venda: Registra uma venda e salva a transação
+    Calcular Lucro: Exibe o lucro total com base nas vendas registradas.
